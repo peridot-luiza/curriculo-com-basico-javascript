@@ -1,4 +1,8 @@
 body{
+    background-image: url(plano_fundo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     margin: 5% 10%;
     background-color: rgb(65, 87, 83);
