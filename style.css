@@ -1,0 +1,31 @@
+body{
+    margin: 5% 10%;
+    background-color: rgb(65, 87, 83);
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 18px;
+ 
+}
+    button {
+      background-color: rgb(0, 0, 0);
+      color: white;
+      padding: 20px 30px;
+      font-size: 16px;
+      transition: transform 0.3s ease;
+      border-radius: 20px;
+       width: 200px;
+       height: auto;
+      
+    }
+
+    button:hover {
+      transform: scale(1.1); 
+    }
+    img{
+        border-radius: 20px;
+        width :150px;
+         height:auto;
+    }
+  h2{
+    text-align: center;
+  }

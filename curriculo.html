@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo de Luiza</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h1{
+         background-color: rgb(63, 61, 62);
+         color: white;
+         width: 70%px;
+         height: auto;
+    }
+  </style>
+  
+</head>
+<body>
+    <center>
+   <h1>Currículo de Luiza</h1>
+  </center>
+     
+    <hr>
+
+  <img src="foto-curriculo.png" alt="foto para curriculo"  align="left">
+   <h2>Informações Pessoais </h2> 
+   
+ <center>
+
+  <p>
+    Nome: Luiza Estefane da Conceição de Souza <br>
+    Idade: 19 anos <br>
+    Cidade: Sobradinho 2 - DF 
+  </p>
+  <br>
+    <hr>   
+   
+   <br> 
+  
+  <button onclick="mostrar('formacao')">Formação</button>
+  <div id="formacao" style="display: none; margin-top: 20px;">
+    <p>
+        <ol>
+            -ENSINO MÉDIO COMPLETO <br>
+            Escola Estadual Ayrton Sennav -Aguas lindas de Goias <br> <br>
+            -ENSINO SUPERIOR INCOMPLETO <br>
+            - SENAC- 1 Bimestre- <br>
+
+        </ol>
+         
+    
+    </p>
+
+  </div>
+
+  <br> <br>
+  <button onclick="mostrar('experiencia')">Experiência</button>
+  <div id="experiencia" style="display: none; margin-top: 20px;">
+    <p> LAN HOUSE- 2023 <br> <br>
+       -SERVICOS PRESTADOS - <br>
+       Atendimento ao publico <br>
+       Serviços no computador: Impressão, digitalização, digitação de documentos,  criação de currículos, entre outros <br>
+    </p>
+    
+  </div>
+<br> <br>
+  <button onclick="mostrar('habilidades')">Habilidades</button>
+  <div id="habilidades" style="display: none; margin-top: 20px;">
+    <p><strong>Habilidades:</strong></p>
+    Comunicação eficaz <br>
+     Proatividade <br>
+      Trabalho em equipe <br>
+       Organização <br>
+        Resolução de problemas <br>
+        Adaptabilidade <br>
+        Pontualidade <br>
+        Aprendizado rápido <br>
+         Conhecimento básico em informática (Word, Excel, PowerPoint) <br>
+  </div>
+
+  <br> <br>
+  
+  <button onclick="mostrar('contato')">Contato</button>
+  <div id="contato" style="display: none; margin-top: 20px;">
+    <p><strong>Email:</strong> luizaestefane7@gmail.com</p>
+    <p><strong>Telefone:</strong> (61) 991616241</p>
+  </div>
+<br>
+  <script>
+    function mostrar(id) {
+      const secao = document.getElementById(id);
+      if (secao) {
+        secao.style.display = secao.style.display === "none" ? "block" : "none";
+      }
+    }
+   
+  </script>
+</center>
+  
+</nav>
+</body>
+</html>
